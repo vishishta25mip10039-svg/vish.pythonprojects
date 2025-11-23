@@ -9,30 +9,30 @@ Store data safely in CSV/JSON
 Generate mood trend graphs using Matplotlib
 This project shows  the use of file handling, functions, modular programming, and basic data visualization.
 
-Features
-Add and save your daily mood
-View complete mood history
-Clean, simple, beginner-friendly console interface
-Data stored permanently
-Graph visualization of mood trends
-Fully written in Python
+Features :
+Add and save your daily mood;
+View complete mood history;
+Clean, simple, beginner-friendly console interface;
+Data stored permanently;
+Graph visualization of mood trends;
+Fully written in Python.
 
-Technologies / Tools Used
-Python 3
-CSV / JSON file handling
-Matplotlib (optional, for graphs)
-Datetime module
+Technologies / Tools Used:
+Python 3;
+CSV / JSON file handling;
+Matplotlib;
+Datetime module.
 
-Steps to Install & Run the Project
+Steps to Install & Run the Project:
 1. Clone the Repository
 git clone https://github.com/your-username/mood-tracker.git
-cd mood-tracker
+cd mood-tracker ;
 2. Install Required Libraries
-pip install matplotlib
+pip install matplotlib ;
 3. Run the Project
-python mood_tracker.py
+python mood_tracker.py .
 
-Instructions for Testing
+Instructions for Testing:
 To test all features:
 Test 1: Add a Mood
 Run the program → Choose option 1 → Enter:
