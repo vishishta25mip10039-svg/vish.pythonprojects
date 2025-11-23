@@ -41,5 +41,5 @@ Mood level (1–10)
 Check if it is saved in mood_data.csv.
 Test 2: View Moods
 Choose option 2 → Ensure data displays correctly.
-Test 3: Graph (optional)
+Test 3: Graph
 Choose option 3 → A mood trend line chart should appear.
