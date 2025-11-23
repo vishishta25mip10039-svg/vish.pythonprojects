@@ -1,45 +1,46 @@
-Mood Tracker – Python Project
-A simple and interactive Python project that allows users to record, store, and review their daily mood. This project aims to encourage mental-health awareness by helping users track emotional patterns over time.
+Simple Mood Tracker
+A lightweight and user-friendly desktop application built with Python and Tkinter that allows users to track their daily moods.  
+The app stores each day's mood in a local JSON file and provides options to view the current day's mood or the full mood history.
 
-Project Overview:
-The Mood Tracker is a console-based Python application where users can-
-Log their mood for any date;
-View all past mood entries;
-Store data safely in CSV/JSON;
-Generate mood trend graphs using Matplotlib;
-This project shows  the use of file handling, functions, modular programming, and basic data visualization.
+Overview
+The **Simple Mood Tracker** is designed to help users quickly log how they feel each day.  
+With a clean interface and easy-to-use controls, it is ideal for beginners, students, and anyone wanting a simple daily habit tool.
+The application uses a dropdown menu for mood selection and saves the entry with the current date.  
+It also allows viewing of today's mood or all previously logged moods.
 
-Features :
-Add and save your daily mood;
-View complete mood history;
-Clean, simple, beginner-friendly console interface;
-Data stored permanently;
-Graph visualization of mood trends;
-Fully written in Python.
+Features
+- Select and log your mood for the current day.
+- Automatically saves entries with the date.
+- View today's logged mood instantly.
+-  View all previously stored moods in a clear list.
+- Data stored locally in a JSON file (`simple_moods.json`).
+- Simple and clean Tkinter GUI.
+  
+Technologies / Tools Used
+- **Python 3**
+- **Tkinter** (GUI Framework)
+- **JSON** (Local data storage)
+- **datetime** (Handling dates)
+- 
+ Steps to Install & Run the Project
+1. **Clone or Download the Project**
+git clone https://github.com/your-username/simple-mood-tracker.git
+Or download the source files manually.
 
-Technologies / Tools Used:
-Python 3;
-CSV / JSON file handling;
-Matplotlib;
-Datetime module.
+2. Ensure Python is Installed
+Check your Python version:
+python --version
+Python 3.7+ is recommended.
 
-Steps to Install & Run the Project:
-1. Clone the Repository
-git clone https://github.com/your-username/mood-tracker.git
-cd mood-tracker 
-2. Install Required Libraries
-pip install matplotlib 
-3. Run the Project
-python mood_tracker.py 
+3. Run the Application
+Navigate to the project folder and run:
+python mood_tracker.py
+The GUI window will open.
 
-Instructions for Testing:
-To test all features:
-Test 1: Add a Mood
-Run the program → Choose option 1 → Enter:
-Date (YYYY-MM-DD)
-Mood level (1–10)
-Check if it is saved in mood_data.csv.
-Test 2: View Moods
-Choose option 2 → Ensure data displays correctly.
-Test 3: Graph
-Choose option 3 → A mood trend line chart should appear.
+Instructions for Testing
+Open the app.
+Select a mood from the dropdown list.
+Click "Log Mood" to save it.
+Click "Show Today's Mood" to verify your saved mood.
+Click "Show All Moods" to view complete history.
+Check simple_moods.json to ensure moods are stored correctly
