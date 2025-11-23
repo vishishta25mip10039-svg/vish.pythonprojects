@@ -1,12 +1,12 @@
 Mood Tracker – Python Project
 A simple and interactive Python project that allows users to record, store, and review their daily mood. This project aims to encourage mental-health awareness by helping users track emotional patterns over time.
 
-Project Overview
-The Mood Tracker is a console-based Python application where users can:
-Log their mood for any date
-View all past mood entries
-Store data safely in CSV/JSON
-Generate mood trend graphs using Matplotlib
+Project Overview:
+The Mood Tracker is a console-based Python application where users can-
+Log their mood for any date;
+View all past mood entries;
+Store data safely in CSV/JSON;
+Generate mood trend graphs using Matplotlib;
 This project shows  the use of file handling, functions, modular programming, and basic data visualization.
 
 Features :
@@ -26,11 +26,11 @@ Datetime module.
 Steps to Install & Run the Project:
 1. Clone the Repository
 git clone https://github.com/your-username/mood-tracker.git
-cd mood-tracker ;
+cd mood-tracker 
 2. Install Required Libraries
-pip install matplotlib ;
+pip install matplotlib 
 3. Run the Project
-python mood_tracker.py .
+python mood_tracker.py 
 
 Instructions for Testing:
 To test all features:
