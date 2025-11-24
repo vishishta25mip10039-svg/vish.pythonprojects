@@ -23,9 +23,7 @@ Technologies / Tools Used:
 - **datetime** (Handling dates)
 - 
  Steps to Install & Run the Project:
-1. **Clone or Download the Project**
-git clone https://github.com/your-username/simple-mood-tracker.git
-Or download the source files manually.
+1.download the source files manually.
 
 2. Ensure Python is Installed
 Check your Python version:
